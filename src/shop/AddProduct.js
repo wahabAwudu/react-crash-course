@@ -2,7 +2,7 @@ import React from "react";
 
 const AddProduct = (props) => {
   return (
-    <React.Fragment>
+    <div className="container">
       <h1>Hello this is the AddProduct page</h1>
       <form>
         Name
@@ -14,7 +14,7 @@ const AddProduct = (props) => {
         <br />
         <button type="submit">Add Product</button>
       </form>
-    </React.Fragment>
+    </div>
   );
 };
 

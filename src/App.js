@@ -6,6 +6,8 @@ import Home from "./Home";
 import ShopRoutes from "./shop";
 import Navbar from "./components/Navbar";
 
+import "bootstrap/dist/css/bootstrap.min.css";
+
 const AppHome = (props) => {
   let name = "Wahab Awudu";
 
